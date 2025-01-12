@@ -24,20 +24,19 @@ This project involves the development of a full RFID card payment system that au
 - User dashboard to view payment history and track dues.
 
 ## Technologies Used
-- **Hardware**: RFID, Microcontrollers (e.g., Arduino, ESP32, etc.)
+- **Hardware**: RFID, Microcontrollers ( ESP8266 -nodeMcu)
 - **Software**: 
-  - Frontend: HTML, CSS, JavaScript (React.js or similar)
+  - Frontend: HTML, CSS, JavaScript Bootstrap
   - Backend: Python, Flask
-  - Database: MySQL or MongoDB (depending on your choice)
   - API: RESTful API development with Flask
 
 ## Setup Instructions
 
 ### Hardware:
-1. Connect the RFID card reader to the microcontroller (e.g., Arduino).
-2. Program the microcontroller with the appropriate code to handle card scans and payment processing.
+1. Connect the RFID card reader to the microcontroller (esp8266).
+2. Program the microcontroller with the .ino file.
 
 ### Software:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/rfid-payment-system.git
+   https://github.com/dracer001/RFID-Card-Payment-System-Hardware-and-Software-.git
